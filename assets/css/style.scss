@@ -348,7 +348,27 @@ main {
   padding: 0;
   li {
     font-size: 11pt;
-    float: right;
+    float: left;
+    // font-style: italic;
+    //background-color: #e3e3e3;
+    padding: 0px 6px;
+    //border-radius: 2px;
+    @media screen and (max-width: $mobileW) {
+      margin-top: 5px;
+    }
+    margin-right: 1px;
+  }
+}
+
+.pubs-authors-self {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  li {
+    font-size: 11pt;
+    float: left;
+    font-style: bold;
     // font-style: italic;
     //background-color: #e3e3e3;
     padding: 0px 6px;
