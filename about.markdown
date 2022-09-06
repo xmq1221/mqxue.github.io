@@ -8,7 +8,6 @@ Ph.D. Student
 
 <div id="webaddress">
 <a href="https://mqxue.github.io">My web page</a>
-<!-- | <a href="https://cvpr.kmu.ac.kr">CVPR Lab.</a> -->
 </div>
 
 
