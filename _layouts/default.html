@@ -35,12 +35,12 @@
       {% capture footer %}
       {%- if site.plainwhite.social_links != '' -%}
       <ul class="social about-footer {{condensed_class}}">
-        {%- if site.plainwhite.social_links.google -%}
+        <!-- {%- if site.plainwhite.social_links.google -%}
         <a href="https://scholar.google.com//{{ site.plainwhite.social_links.scholar.google }}" target="_blank">
           <li>
             <i class="icon-google-scholar-circled"></i>
           </li>
-        </a>
+        </a> -->
         {%- if site.plainwhite.social_links.github -%}
         <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
           <li>
@@ -136,6 +136,13 @@
         <a href="https://stackoverflow.com/users/{{ site.plainwhite.social_links.stackoverflow }}" target="_blank">
           <li>
             <i class="icon-stack-overflow"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        {%- if site.plainwhite.social_links.scholar.google -%}
+        <a href="https://scholar.google.com/users/{{ site.plainwhite.social_links.scholar.google }}" target="_blank">
+          <li>
+            <i class="icon-scholar-google"></i>
           </li>
         </a>
         {%- endif -%}
